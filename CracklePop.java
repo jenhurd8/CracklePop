@@ -6,7 +6,7 @@ public class CracklePop {
 
 	public static void main(String[] args) {
 		System.out.println("Please enter a number from 1-100:");
-		while (num < 1000) {
+		while (num < Integer.MAX_VALUE) {
 			testNumber();
 			num++;
 		}
